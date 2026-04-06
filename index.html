@@ -12,44 +12,252 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-    .work-sans-font{
+    .work-sans-font {
         font-family: "Work Sans", sans-serif;
     }
 </style>
 
 <body class="work-sans-font">
-    <header class="shadow-sm">
+    <header class="shadow-sm px-2">
         <nav class="flex justify-center items-center gap-[9px] py-[14px]">
-            <div class="w-[78px] h-[78px]">
+            <div class="w-12 md:w-[78px] h-12 md:h-[78px]">
                 <img src="./assets/logo.png" alt="">
             </div>
             <div class="text-[#E71580]">
-                <h2 class="text-5xl">
+                <h2 class="text-3xl md:text-5xl">
                     <span>Deshi</span>
                     <span class="font-bold">Deals</span>
                 </h2>
-                <p class="text-xl text-[#797075]">Cheap Price , Best Quality</p>
+                <p class="text-sm md:text-xl text-[#797075]">Cheap Price , Best Quality</p>
             </div>
         </nav>
     </header>
 
     <main>
         <!-- hero section -->
-         <section class="mt-1 pt-24 bg-gradient-to-t from-[#F6DDEA] to-[#FFFFFF]">
-            <div class="font-bold text-5xl text-center">
+        <section class="mt-1 pt-12 sm:pt-16 md:pt-24 bg-gradient-to-t from-[#F6DDEA] to-[#FFFFFF] px-2">
+            <div class="font-bold text-2xl md:text-5xl text-center">
                 <h1 class="text-[#111111]">Purchase TK 200 or above & get</h1>
                 <h1 class="text-[#E527B2]">20% off</h1>
             </div>
-            <div class="flex justify-center gap-7 mt-10">
-                <button class="btn btn-outline btn-secondary border-[#E527B2] hover:bg-[#E527B2]">Use Promo Code</button>
-                <button class="btn btn-secondary bg-[#E527B2] hover:bg-white hover:text-[#E527B2] hover:border-[#E527B2]">SELL200</button>
+            <div class="flex justify-center gap-7 mt-5 sm:mt-7 md:mt-10">
+                <button class="btn btn-outline border-[#E527B2] hover:bg-[#E527B2]">Use Promo
+                    Code</button>
+                <button
+                    class="btn bg-[#E527B2] hover:bg-white hover:text-[#E527B2] hover:border-[#E527B2]">SELL200</button>
             </div>
-            <div class="">
-                <img class="max-w-[700px] block mx-auto" src="./assets/hero-bg.png" alt="">
+            <div class="flex justify-center items-center">
+                <img class="md:w-[700px] sm:w-[500px] -mb-20" src="./assets/hero-bg.png" alt="">
             </div>
-         </section>
+        </section>
 
-         <!--  -->
+        <!-- all card section -->
+        <section class="bg-[#111111]/5 pt-36 pb-32 w-full">
+            <div class="w-[90%] mx-auto grid grid-cols-12">
+                <div class="col-span-12 md:col-span-8 md:justify-self-start">
+                    <!-- kitchen -->
+                    <div>
+                        <h2 class="font-semibold text-2xl md:text-4xl mb-8 text-[#111111]">Kitchenware</h2>
+                        <div class="">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <!-- card -->
+                                <div class="card bg-base-100 shadow-sm p-4">
+                                    <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                        <img class="max-h-[128px] object-cover" src="./assets/kitchen-1.png"
+                                            alt="Shoes" />
+                                    </figure>
+                                    <div class="flex flex-col items-center px-4 mt-3">
+                                        <p class="">⭐⭐⭐⭐⭐</p>
+                                        <h2 class="font-semibold text-xl text-[#111111]">K. Accessories</h2>
+                                        <p class="text-xl text-[#111111]/50">99.00 TK</p>
+                                        <div class="mt-2 card-actions flex">
+                                            <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-base-100 shadow-sm p-4">
+                                    <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                        <img class="max-h-[128px] object-cover" src="./assets/kitchen-2.png"
+                                            alt="Shoes" />
+                                    </figure>
+                                    <div class="flex flex-col items-center px-4 mt-3">
+                                        <p class="">⭐⭐⭐⭐⭐</p>
+                                        <h2 class="font-semibold text-xl text-[#111111]">K. Accessories</h2>
+                                        <p class="text-xl text-[#111111]/50">109.00 TK</p>
+                                        <div class="mt-2 card-actions flex">
+                                            <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card bg-base-100 shadow-sm p-4">
+                                    <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                        <img class="max-h-[128px] object-cover" src="./assets/kitchen-3.png"
+                                            alt="Shoes" />
+                                    </figure>
+                                    <div class="flex flex-col items-center px-4 mt-3">
+                                        <p class="">⭐⭐⭐⭐⭐</p>
+                                        <h2 class="font-semibold text-xl text-[#111111]">Home Cooker</h2>
+                                        <p class="text-xl text-[#111111]/50">199.00 TK</p>
+                                        <div class="mt-2 card-actions flex">
+                                            <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- sport swear -->
+                    <div class="mt-14">
+                        <h2 class="font-semibold text-2xl md:text-4xl mb-8 text-[#111111]">Sportswear</h2>
+                        <div class=" grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <!-- card -->
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/sports-1.png" alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Sports Back Cap</h2>
+                                    <p class="text-xl text-[#111111]/50">149.00 TK</p>
+                                    <div class="mt-2 card-actions flex">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/sports-2.png" alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Full Jersey Set</h2>
+                                    <p class="text-xl text-[#111111]/50">499.00 TK</p>
+                                    <div class="mt-2 card-actions flex">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/sports-3.png" alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Sports cates</h2>
+                                    <p class="text-xl text-[#111111]/50">1299.00 TK</p>
+                                    <div class="mt-2 card-actions flex it">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- furniture -->
+                    <div class="mt-14">
+                        <h2 class="font-semibold text-2xl md:text-4xl mb-8 text-[#111111]">Furniture</h2>
+                        <div class=" grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <!-- card -->
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/furniture-1.png"
+                                        alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Single Relax Chair</h2>
+                                    <p class="text-xl text-[#111111]/50">1899.00 TK</p>
+                                    <div class="mt-2 card-actions flex">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/furniture-2.png"
+                                        alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Children play</h2>
+                                    <p class="text-xl text-[#111111]/50">2299.00 TK</p>
+                                    <div class="mt-2 card-actions flex">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-base-100 shadow-sm p-4">
+                                <figure class="bg-[#111111]/5 py-6 rounded-md">
+                                    <img class="max-h-[128px] object-cover" src="./assets/furniture-3.png"
+                                        alt="Shoes" />
+                                </figure>
+                                <div class="flex flex-col items-center px-4 mt-3">
+                                    <p class="">⭐⭐⭐⭐⭐</p>
+                                    <h2 class="font-semibold text-xl text-[#111111]">Flexible Sofa</h2>
+                                    <p class="text-xl text-[#111111]/50">3299.00 TK</p>
+                                    <div class="mt-2 card-actions flex it">
+                                        <button class="btn  bg-[#E527B2] text-white">Add To Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- add to card -->
+                <div class="col-span-12 md:col-span-4 mt-[72px] md:justify-self-end">
+                    <div>
+                        <div class="bg-white rounded-lg p-3 mb-11">
+                            <p class="font-medium text-2xl text-[#111111]">Have coupon?</p>
+                            <div class="flex rounded-lg mt-2">
+                                <input
+                                    class="text-lg rounded-l-md py-1 px-2 outline-none border-[#111111]/15 text-[#111111]/40"
+                                    placeholder="Coupon code" type="text" name="" id="">
+                                <button
+                                    class="bg-[#E527B2] rounded-r-md text-white font-semibold px-2 py-[7px]">Apply</button>
+                            </div>
+                        </div>
+
+                        <!-- added to card -->
+                        <div class="bg-white rounded-lg p-4">
+                            <div id="added-card-container">
+                                <div class="bg-[#111111]/5 flex justify-between items-center rounded-lg p-3 mb-4">
+                                    <div>
+                                        <img class="max-h-20 object-cover" src="./assets/kitchen-1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-xl text-[#111111]">K. Accessories</p>
+                                        <p class="text-xl text-[#111111]/50">39.00 TK</p>
+                                    </div>
+                                </div>
+
+                                <div class="bg-[#111111]/5 flex justify-between items-center rounded-lg p-3 mb-4">
+                                    <div>
+                                        <img class="max-h-20 object-cover" src="./assets/kitchen-1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-xl text-[#111111]">K. Accessories</p>
+                                        <p class="text-xl text-[#111111]/50">39.00 TK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="border-[#111111]/15 border-1">
+                            <p class="font-medium text-xl mt-4"><span class="text-[#111111]">Total price:</span> <span
+                                    class="text-[#111111]/50"><span>0</span> TK</span></p>
+                            <p class="font-medium text-xl mt-2"><span class="text-[#111111]">Discount:</span> <span
+                                    class="text-[#111111]/50">0 TK</span></p>
+                            <p class="font-medium text-xl mt-2"><span class="text-[#111111]">Total:</span> <span
+                                    class="text-[#111111]/50">0
+                                    TK</span></p>
+                            <hr class="border-[#111111]/15 border-1 mt-4">
+                            <button class="font-semibold text-md bg-[#E527B2] rounded-lg text-white p-2 mt-5 box-border w-full btn">Make Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
